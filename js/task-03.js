@@ -13,8 +13,7 @@ const images = [
   },
 ];
 
-const list = document.querySelector('.gallery');           
-//console.log(list);         
+const list = document.querySelector('.gallery');      
 
 const galleryImages = images.map(({ url, alt }) => `<li>      
   <img src = "${url}"  alt = "${alt}">

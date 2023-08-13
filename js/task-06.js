@@ -1,5 +1,4 @@
 const inputCont = document.querySelector('#validation-input');
-//console.log(inputCont);
 const dataLengthInput = inputCont.dataset.length;
 
 const funcBlur = (event) => {
